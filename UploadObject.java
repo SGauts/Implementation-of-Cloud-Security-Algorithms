@@ -34,7 +34,7 @@ public class UploadObject {
             Scanner sc=new Scanner(System.in); 
             
             AWSCredentials credentials = new BasicAWSCredentials(
-				"AKIAJJVOLTWE2MZ27TUQ",  "DJmRLmXlRc7aKKHabc74rom3o63hnGPmk3fmIG1e");
+				"********************",  "****************************************");
        
             /*
             public void set_uploadFileName(String u)
@@ -173,7 +173,7 @@ public class UploadObject {
                 
 
 	public static void main(String args[]) throws IOException       {
-		AWSCredentials Credentials = new BasicAWSCredentials(       "AKIAJJVOLTWE2MZ27TUQ",  "DJmRLmXlRc7aKKHabc74rom3o63hnGPmk3fmIG1e");
+		AWSCredentials Credentials = new BasicAWSCredentials(       "********************",  "****************************************");
 	    
                    
                 UploadObject u2=new UploadObject("fdnbh.jpg","C:\\Users\\ACER\\Documents\\NetBeansProjects\\JavaApplication17\\New folder\\ga.jpg" );
@@ -185,24 +185,5 @@ public class UploadObject {
 
         }                                               
                
-                /*
-	public   void s3upload() throws IOException {
-		AWSCredentials Credentials = new BasicAWSCredentials(
-				"AKIAJJVOLTWE2MZ27TUQ",  "DJmRLmXlRc7aKKHabc74rom3o63hnGPmk3fmIG1e");
-		//UploadObject s3client = new UploadObject();
-                
-        	s3client.uploadfile(Credentials);
- 
-  }
-        public  void s3download() throws IOException {
-		AWSCredentials Credentials = new BasicAWSCredentials(
-				"AKIAJJVOLTWE2MZ27TUQ",  "DJmRLmXlRc7aKKHabc74rom3o63hnGPmk3fmIG1e");
-		//UploadObject s3client = new UploadObject();
-               
-        	s3client.downloadfile(Credentials);
-                
- 
-  }                                                                           
-        
-*/        
+                     
 }
