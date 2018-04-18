@@ -55,7 +55,7 @@ public class AlgoFrame extends JFrame
             Scanner sc=new Scanner(System.in); 
             
             AWSCredentials credentials = new BasicAWSCredentials(
-				"AKIAJJVOLTWE2MZ27TUQ",  "DJmRLmXlRc7aKKHabc74rom3o63hnGPmk3fmIG1e");
+				"********************",  "****************************************");
        
             
     String initDir = null;
@@ -306,20 +306,7 @@ public class AlgoFrame extends JFrame
                            //obj2.uploadfile("jn","C:\\Users\\ACER\\Documents\\NetBeansProjects\\JavaApplication17\\1.jpg");
                            //System.out.println(u.uploadFileName+ " will be saved as \n "+u.keyName+" in the bucket");
             
-                           /*
-                           String sa[]=output_path.split("\\\\");
-        
-            for(String w:sa)
-            {
-                System.out.println(w);
-            }
-                             AlgoFrame s3client=new AlgoFrame();
-                              s3client.keyName="fsdnf.jpg";
-                            s3client.uploadFileName="C:\\Users\\ACER\\Documents\\NetBeansProjects\\JavaApplication17\\2.jpg";
-
-                             s3client.uploadfile();
-                             // System.out.println(output_path);
-                           */
+                          
                                
                    }
 
